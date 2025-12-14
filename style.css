@@ -276,3 +276,31 @@ form textarea:focus {
   padding: 12px 28px;
   margin-top: 10px;
 }
+/* FORCE vertical contact form */
+.vertical-form {
+  display: block !important;
+  max-width: 520px;
+  margin-top: 40px;
+}
+
+.vertical-form input,
+.vertical-form textarea {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #e5e7eb;
+}
+
+.vertical-form textarea {
+  resize: vertical;
+}
+
+.vertical-form button {
+  margin-top: 10px;
+  padding: 12px 30px;
+}
