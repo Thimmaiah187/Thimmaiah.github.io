@@ -139,3 +139,19 @@ section::after {
   margin-top: 40px;
   border-radius: 10px;
 }
+.social-links {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+  color: #94a3b8;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #38bdf8;
+  transform: translateY(-4px);
+}
