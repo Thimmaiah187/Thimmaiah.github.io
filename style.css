@@ -191,3 +191,11 @@ section::after {
   background: #38bdf8;
   color: #0f172a;
 }
+.education-item {
+  margin-top: 25px;
+}
+
+.education-item h4 {
+  margin-bottom: 8px;
+  color: #e5e7eb;
+}
