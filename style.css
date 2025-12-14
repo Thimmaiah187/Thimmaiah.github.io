@@ -30,15 +30,15 @@ header p {
 /* Sections */
 section {
   max-width: 900px;
-  margin: auto;
-  padding: 60px 20px;
+  margin:auto;
+  padding: 80px 24px;
 }
 
 h2 {
   color: #38bdf8;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
 }
-
 /* Skills */
 .skills {
   display: flex;
@@ -90,4 +90,12 @@ h2 {
 /* Contact */
 section p {
   margin-bottom: 10px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  max-width: 700px;
 }
