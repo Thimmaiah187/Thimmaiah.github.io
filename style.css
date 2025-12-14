@@ -142,7 +142,8 @@ section::after {
 .social-links {
   display: flex;
   gap: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
+  justify-content:center;
 }
 
 .social-links a {
